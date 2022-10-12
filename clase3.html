@@ -64,6 +64,9 @@
             font-size: var(--md);
             padding: 6px;
         }
+        input-email{
+            margin-bottom: 22px;
+        }
         .primary-button{
             background-color: var(--hospital-green);
             border-radius: 8px;
@@ -75,6 +78,17 @@
             font-weight: bold;
             height: 50px;
         }
+        .secondary-button{
+            background-color: var(--white);
+            border-radius: 8px;
+            border: 1px solid var(--hospital-green);
+            color: var(--hospital-green);
+            width: 100%;
+            cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+        }        
         .login-button{
             margin-top: 14px;
             margin-bottom: 30px;
@@ -89,9 +103,7 @@
 <body>
     <div class="login">
         <div class="form-container">
-            <figure class="logo">
-                <img src="./logos/logo_yard_sale.svg" alt="logo">
-            </figure>
+            <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
             <form action="#" class="form">
                 <label for="email" class="label">Email addres</label>
                 <input type="text" id="email" placeholder="email@gmail.com" class="input input-email">
